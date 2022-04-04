@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Escribe en una línea para ejecutar con Emmet el resultado que se muestra en los siguientes apartados: -->
+    <!-- Ejercicios Emmet I -->
+    <!-- 1. Elementos simples /h1+h2+p -->
+    <h1></h1>
+    <h2></h2>
+    <p></p>
+    <!-- 2. Elementos con contenido / h1{Soy un título}+p{y yo un párrafo} -->
+    <h1>Soy un título</h1>
+    <p>y yo un párrafo</p>
+    <!-- 3. Anidamiento simple / h1>mark -->
+    <h1>
+      <mark></mark>
+    </h1>
+    <!-- 4. Anidamiento con contenido / h1>mark{El texto subrayado} -->
+    <h1>
+      <mark>Eltexto subrayado</mark>
+    </h1>
+    <!-- 5. Anidamiento con múltiples elementos /ul>li*5 -->
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- 6. Anidamiento con múltiples elementos y contenido / ul>li*5{Elemento} -->
+    <ul>
+      <li>Elemento</li>
+      <li>Elemento</li>
+      <li>Elemento</li>
+      <li>Elemento</li>
+      <li>Elemento</li>
+    </ul>
+    <!-- Ejercicios Emmet II -->
+    <!-- 1. Tablas / table>tr>td*3 -->
+    <table>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <!-- 2. Tablas y agrupaciones table>(tr>th*3)+tr>td*3 -->
+    <table>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+    <!-- Ejercicios Emmet III -->
+    <!-- 1. Clases and Id / table#super-table>tr>td.table-data*3  -->
+    <table id="super-table">
+      <tr>
+        <td class="table-data"></td>
+        <td class="table-data"></td>
+        <td class="table-data"></td>
+      </tr>
+    </table>
+    <!-- 2. Formularios / form:get[action="/action_page.php"]>label[for="fname"]{First name:}+input:text[id="fname" name="fname"]+input:submit[value="Submit"] -->
+    <form action="/action_page.php" method="get">
+      <label for="fname">First name:</label>
+      <input type="text" name="fname" id="fname" />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
